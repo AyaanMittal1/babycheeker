@@ -1,0 +1,37 @@
+body{
+    background-size: cover;
+}
+h1{
+    margin-top: 0px;
+    padding:10px;
+}
+#status{
+    float: left;
+    font-size: 20px;
+    margin-left: 100px;
+}
+#answer{
+    float: right;
+    font-size: 20px;
+    margin-right: 100px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: navy;
+    color: white;
+}
+canvas{
+    border: 10px red ridge;
+    border-radius: 15%;
+    box-shadow: 5px 5px 15px navy;
+    margin-top: 70px;
+}
+#speed{
+    width: 20%;
+}
+#slider_value{
+    color: aqua;
+    font-size: 13;
+}
